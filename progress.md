@@ -5,5 +5,10 @@ Weekly meetings are held on Saturdays at 10:00 AM EST for 1 hour, where we mainl
 
 ## 2023-09-30
 
-An first assessment was given to Jeremy to test his current level of mathematics. 
+A first assessment was given to Jeremy to test his current level of mathematics. 
 Jeremy did well in most topics, but the lack of English vocabulary slightly hindered his ability to understand the questions. 
+
+## 2023-10-07
+
+We started with the topic of **geometry**. 
+Most of the lecture focuses on the concept and terminologies involved in geometry, whereas Jeremy is familiar with the material. (He has learned geometry in Chinese before.)
