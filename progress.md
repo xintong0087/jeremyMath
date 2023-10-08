@@ -12,3 +12,7 @@ Jeremy did well in most topics, but the lack of English vocabulary slightly hind
 
 We started with the topic of **geometry**. 
 Most of the lecture focuses on the concept and terminologies involved in geometry, whereas Jeremy is familiar with the material. (He has learned geometry in Chinese before.)
+More focus in given to problem-solving and communicating rigorous mathematics. 
+Proof by contradiction is introduced, and Jeremy is able to understand the concept.
+The time is not enough. 
+I should focus more about the most important concepts and give more time for Jeremy to practice after class.
