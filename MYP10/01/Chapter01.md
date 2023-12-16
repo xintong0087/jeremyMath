@@ -152,6 +152,12 @@ $$ a^{-\frac{m}{n}} = \frac{1}{a^{\frac{m}{n}}} = \frac{1}{\sqrt[n]{a^m}} $$
 
 Scientific notation is a way of writing numbers that are too big or too small to be conveniently written in decimal form.
 
+It involves writing a number as a product of a number between 1 and 10 and a power of 10.
+
+### Observe
+
+![Example7](Example7.jpg)
+
 ### Example 1
 
 $$ 8\underbrace{000000000}_{\text{9 zeros}} = 8\times 10^{9} $$
@@ -160,3 +166,10 @@ $$ 8\underbrace{000000000}_{\text{9 zeros}} = 8\times 10^{9} $$
 
 $$ 0.\underbrace{0000000000}_{\text{10 zeros}}5 = 5\times 10^{-11} $$
 
+### Questions
+
+![Example8](Example8.jpg)
+
+![Example9](Example9.jpg)
+
+![Example10](Example10.jpg)
