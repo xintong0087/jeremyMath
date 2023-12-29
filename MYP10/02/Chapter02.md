@@ -96,4 +96,6 @@ where $\{x \in \mathbb{R} | a < x < b\}$ is read as "the set of all $x$ in the r
 
 There can also be intervals where $x$ is a integer, or a natural number, or a rational number, etc.
 
-* $(1, 2) = \{x | 1 < x < 2, x \in \mathbb{R}\}$
+* $\{x | a \leq x \leq b, x \in \mathbb{N}\}$
+
+However, there are no simple notations for these intervals.
