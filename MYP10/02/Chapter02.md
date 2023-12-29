@@ -97,5 +97,12 @@ where $\{x \in \mathbb{R} | a < x < b\}$ is read as "the set of all $x$ in the r
 There can also be intervals where $x$ is a integer, or a natural number, or a rational number, etc.
 
 * $\{x | a \leq x \leq b, x \in \mathbb{N}\}$
+* $\{x | a \leq x \leq b, x \in \mathbb{Q}\}$
 
 However, there are no simple notations for these intervals.
+
+![Example 2.2.2](Example3.png)
+
+### Exercise 2.2.3
+
+![Exercise 2.2.3](Exercise3.png)
