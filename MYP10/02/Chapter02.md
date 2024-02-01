@@ -167,3 +167,54 @@ It consists of a rectangle that represents the universal set $U$ and circles tha
 ![Alt text](image.png)
 
 ![Alt text](image-1.png)
+
+## 2.5 - Set Operations
+
+### Definition 2.5.1 (Union)
+
+* The **union** of two sets $A$ and $B$ is the set of all elements that are in $A$ or $B$ or both.
+* We use $A \cup B$ to denote the union of $A$ and $B$.
+
+### Definition 2.5.2 (Intersection)
+
+* The **intersection** of two sets $A$ and $B$ is the set of all elements that are in both $A$ and $B$.
+* We use $A \cap B$ to denote the intersection of $A$ and $B$.
+
+![Alt text](image-2.png)
+
+![Alt text](image-3.png)
+
+### Definition 2.5.3 (Disjoint)
+
+* Two sets $A$ and $B$ are **disjoint** or **mutually exclusive** if $A \cap B = \emptyset$.
+* It means that $A$ and $B$ have no elements in common.
+
+![Alt text](image-5.png)
+
+![Alt text](image-6.png)
+
+![Alt text](image-4.png)
+
+## 2.6 - Expressing Number of Elements in a Set using Venn Diagrams
+
+Sometimes it is too difficult to count the number of elements in a set by listing them out.
+In this case, we can just put the number of elements in the set in the corresponding region of the Venn diagram.
+
+![Alt text](image-7.png)
+
+![Alt text](image-8.png)
+
+## 2.7 - Solving Set Problems using Venn Diagrams
+
+![Alt text](image-9.png)
+
+![Alt text](image-10.png)
+
+![Alt text](image-11.png)
+
+## Review Exercises
+
+![Alt text](image-12.png)
+![Alt text](image-13.png)
+![Alt text](image-14.png)
+![Alt text](image-15.png)
