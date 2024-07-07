@@ -89,3 +89,28 @@ So, the function $f(g(x)) = 2 \sqrt(x+3)$ is composed of the functions $f(x) = 2
 ![alt text](image-15.png)
 
 ![alt text](image-16.png)
+
+## Inverse Functions
+![alt text](image-17.png)
+
+![alt text](image-18.png)
+
+Exercise:
+
+![alt text](image-19.png)
+
+## When Functions Meet
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+## Review
+
+![alt text](image-23.png)
+
+![alt text](image-24.png)
+
+![alt text](image-25.png)
