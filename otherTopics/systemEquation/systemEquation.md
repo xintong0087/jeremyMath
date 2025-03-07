@@ -290,13 +290,62 @@ $$
 $$
 
 
+---
+
+## Checking your answers
+
+Verify your answers by substituting them back into the original equations. For example, if you solve the system of equations and get $x = 2$ and $y = 1$, you can substitute these values back into the original equations to check if they satisfy both equations.
+
+Can you check the answers for Problem 3 and Problem 4?
+
+**Problem 3**
+$$
+\begin{cases}
+2.5x + 3y = 10 \quad \text{(1)} \\
+1.5x - 2y = 5 \quad \text{(2)}
+\end{cases}
+$$
+
+**Problem 4**
+$$
+\begin{cases}
+6x + 2y = 10 \quad \text{(1)} \\
+3x - 4y = 2  \quad \text{(2)}
+\end{cases}
+$$
+
+---
+
+## More Problems
+
+In the following problems, we have real examples of systems of equations. 
+Please proceed by **first setting up the system of equations** and **then solving it.**
+
+1. A school has 100 students. The number of girls is 10 more than the number of boys. How many boys and girls are there in the school?
+
+2. Ben is running a lemonade stand. He sells lemonade for $2 per cup and water for $1 per cup. He made $100 yesterday, and he used 75 cups. How many cups of lemonade and water did he sell?
 
 
 
+---
+
+## More Problems
+
+#### AMC 10 2024A - Problem 8 
+
+Amy, Bomani, Charlie, and Daria work in a chocolate factory. On Monday Amy, Bomani, and Charlie started working at $1:00 PM$ and were able to pack $4$, $3$, and $3$ packages, respectively, every $3$ minutes. At some later time, Daria joined the group, and Daria was able to pack $5$ packages every $4$ minutes. Together, they finished packing $450$ packages at exactly $2:45 PM$. At what time did Daria join the group?
+
+$\textbf{(A) }1:25\text{ PM}\qquad\textbf{(B) }1:35\text{ PM}\qquad\textbf{(C) }1:45\text{ PM}$
+
+$\textbf{(D) }1:55\text{ PM}\qquad\textbf{(E) }2:05\text{ PM}$
 
 
+---
 
+## Going Beyond Linear Equations
 
+#### AMC 10 2024A - Problem 23
 
+Integers $a$, $b$, and $c$ satisfy $ab + c = 100$, $bc + a = 87$, and $ca + b = 60$. What is $ab + bc + ca?$
 
-
+$\textbf{(A) }212 \qquad \textbf{(B) }247 \qquad \textbf{(C) }258 \qquad \textbf{(D) }276 \qquad \textbf{(E) }284 \qquad$
