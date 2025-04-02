@@ -38,12 +38,19 @@ for fruit in fruits:
     print(f"Current fruit: {fruit}")
 ```
 
-Output:
+**Output:**
 ```
 Current fruit: apple
 Current fruit: banana
 Current fruit: cherry
 ```
+
+---
+
+## Range()
+
+- The `range()` function generates a sequence of numbers.
+- This sequence can be used to iterate over a loop.
 
 ---
 
@@ -53,59 +60,93 @@ Current fruit: cherry
 # Iterate through numbers 0-4
 for i in range(5):
     print(i)
+```
 
-# Specify start/end
+**Output:**
+```
+0
+1
+2
+3
+4
+```
+
+---
+
+## Specify start/end
+
+```python
+# Iterate through numbers 2-5
 for x in range(2, 6):
     print(x)
 ```
 
----
-
-## Nested For Loops
-
-```python
-adj = ["red", "big", "tasty"]
-fruits = ["apple", "banana", "cherry"]
-
-for a in adj:
-    for f in fruits:
-        print(f"{a} {f}")
+**Output:**
+```
+2
+3
+4
+5
 ```
 
 ---
 
-## Loop Control Statements
+## Specify step
 
 ```python
-# Break example
-for num in [1, 2, 3, 4, 5]:
-    if num == 3:
-        break
-    print(num)
+# Iterate through numbers 0-10 by 2
+for y in range(0, 11, 2):
+    print(y)
+```
 
-# Continue example
-for num in [1, 2, 3, 4, 5]:
-    if num == 3:
-        continue
-    print(num)
+**Output:**
+```
+0
+2
+4
+6
+8
+10
 ```
 
 ---
+
+## Example1: Sum numbers from 1 to 10
+
+```python
+# Sum numbers from 1 to 10
+total = 0
+for number in range(1, 11):
+    total = total + number
+print(f"Sum of numbers: {total}")
+```
+**Output:**  
+`Sum of numbers: 55`  
+*Demonstrates range with step parameter to process every 2nd number*
+
+---
+
+## Example2: Generate list of squares
+
+```python
+# Generate list of squares
+squares = []
+for n in range(5):
+    squares.append(n ** 2)
+print(f"Squares: {squares}")
+```
+**Output:**  
+`Squares: [0, 1, 4, 9, 16]`  
+*Shows how range can build complex data structures through iteration*
+
+---
+
 
 ## Practice Exercises
 
-```python
-colors = ["red", "green", "blue"]
-matrix = [[1, 2], [3, 4], [5, 6]]
-```
-
-1. Basic: Print all colors in uppercase
-2. Intermediate: Sum all numbers in matrix using nested loops
-3. Advanced: Create new list with colors containing letter 'e', using loop + if
-4. Challenge: Print multiplication table (1-10) using nested ranges
-
-**Tip:** Use `str.upper()` for #1, nested loops for #2
-
+1. Basic: Print numbers 1-10
+2. Intermediate: Print even numbers 2-20
+3. Advanced: Print cubes of numbers 1-5
 
 
 
