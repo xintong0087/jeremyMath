@@ -1,0 +1,277 @@
+\documentclass[11pt, answers]{exam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{diagbox}
+\usepackage{color}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{verbatim}
+
+\usepackage{pdfpages}
+\usepackage{setspace}
+\usepackage{xspace}
+\usepackage{tikz}\usepackage{pgflibraryplotmarks}
+\usepackage[margin=1in]{geometry}
+\usepackage{actuarialsymbol}
+\usepackage{booktabs}
+\usepackage{actuarialangle}
+%%added by Liyuan
+\newcommand{\tbl}{\textcolor{blue}}
+\newcommand{\trd}{\textcolor{red}}
+\newcommand{\bl}{\color{blue}}
+\newcommand{\rd}{\color{red}}
+\definecolor{darkblue}{rgb}{0.1,0.1,0.6}
+\definecolor{darkgreen}{rgb}{0.1,0.5,0.1}
+\newcommand{\tdg}{\textcolor{darkgreen}}
+\newcommand{\tdb}{\textcolor{darkblue}}
+\newcommand{\tpp}{\textcolor{purple}}
+\newcommand{\tsb}{\textcolor{SkyBlue}}
+\usepackage{tikz}
+\usepackage{afterpage}
+\usepackage[paper=A4,pagesize]{typearea}
+\usepackage{lipsum}
+
+
+
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{decorations.pathreplacing}
+% For an exam, single spacing is most appropriate
+\singlespacing
+% \onehalfspacing
+% \doublespacing
+\textheight 23.20cm
+% For an exam, we generally want to turn off paragraph indentation
+\parindent 0ex
+
+
+\begin{document}
+	
+	% These commands set up the running header on the top of the exam pages
+	\pagestyle{head}
+	\firstpageheader{}{}{}
+	\runningheader{ETC2430}{- Tutorials Week 8 -}{\ Page \thepage\ of \numpages}
+	\runningheadrule
+	
+	\begin{center}
+		\begin{tabular}{c}
+			\large{\textbf{ETC2430}}  \\
+			\large{\textbf{Actuarial Cash Flow Modeling}} \\
+			\\
+			\textbf{Tutorials}\\
+			\\
+			\textbf{Week 8} \\
+			\textbf{Project appraisal}
+		\end{tabular}\\
+	\end{center}
+	\rule[1ex]{\textwidth}{.1pt}
+	
+\bigskip\bigskip
+
+\underline{\textbf{Question 1:}}\bigskip
+
+In a particular country, which uses dollars as its national currency, price inflation has been running at 20\% pa for the last 20 years. Calculate the average annual real rate of return for each of the following investments:
+\begin{itemize}
+\item[(i)] A set of gold coins purchased for 14,000 on 1 January 2015 and sold for 20,000 on 31 December 2017.
+\item[(ii)] A painting purchased for 3,000 on 1 March 2017 and sold for 3,200 on 1 September 2017.
+\item[(iii)] A diamond purchased for 13,000 on 1 July 2016 and sold for 10,000 on 1 July 2018.
+\item[(iv)] A statuette purchased for 7,500 on 1 November 2010 and sold for 19,000 on 31 December 2017.
+\end{itemize}
+\bigskip\bigskip
+
+
+\underline{\textbf{Solution:}}\bigskip
+
+
+\bigskip\bigskip
+\underline{\textbf{Question 2:}}\bigskip
+
+On 1 January 2015 an investor purchased 10,000 nominal of a stock that pays coupons half-yearly on 30 June and 31 December each year at the rate of 6\% pa and is redeemable at par on 31 December 2027. The investor is liable for income tax at the rate of 40\%, but is not liable for capital gains tax. Calculate the price paid by the investor in order to achieve a net redemption yield of 5\% pa effective.
+\bigskip\bigskip
+
+
+\underline{\textbf{Solution:}}\bigskip
+
+
+\bigskip\bigskip
+\underline{\textbf{Question 3:}}\bigskip
+
+A fixed-interest security with a coupon rate of 6\% pa payable half-yearly in arrears is purchased by an investor who is subject to capital gains tax at a rate of 30\%. The fixed-interest security is redeemable at par after 15 years. The price paid is such that the investment provides a gross redemption yield of 10\% pa effective. Calculate the amount of capital gains tax payable by the investor per 100 nominal.
+
+\bigskip\bigskip
+\underline{\textbf{Solution:}}\bigskip
+
+
+\bigskip\bigskip
+
+\underline{\textbf{Question 4:}}\bigskip
+
+A stock with a term of 9.5 years has a coupon rate of 5\% pa payable half-yearly in arrears and is redeemable at 105\%. An investor who is not subject to tax purchases 100 nominal of the stock for 85. Calculate the yield obtained by the investor.
+
+\bigskip\bigskip
+
+\underline{\textbf{Solution:}}\bigskip
+
+\underline{\textbf{Question 5:}}\bigskip
+
+An investor purchases a bond 6 months after issue. The bond will be redeemed at 105\% eight
+years after issue and pays coupons of 4\% per annum annually in arrears. The investor pays tax of 25\% on income and 15\% on capital gains.
+\begin{itemize}
+\item[(i)] Calculate the purchase price of the bond per £100 nominal to provide the investor with a rate of return of 5\% per annum effective. 
+\item[(ii)] The real rate of return expected by the investor from the bond is 2\% per annum effective. Calculate the annual rate of inflation expected by the investor.
+\end{itemize}
+\bigskip\bigskip
+
+\underline{\textbf{Solution:}}\bigskip
+
+
+\underline{\textbf{Question 6:}}\bigskip
+
+An investor purchased a government bond on 1 January in a particular year. The bond pays
+coupons of 6\% pa six monthly in arrears on 30 June and 31 December. The bond is due to be redeemed at 105\% 11 years after the purchase date.
+The investor pays income tax at the rate of 23\% on 1 April on any coupon payments received in the previous year (1 April to 31 March), and also pays capital gains tax on that date at the rate of 40\% on any capital gains realised in the previous year.
+\begin{itemize}
+\item[(i)] Calculate the price paid for 100 nominal of the bond, given that the investor achieves a net yield of 5\% pa effective interest. 
+\item[(ii)] Without doing any further calculations, explain how and why your answer to (i) would alter if tax were collected on 1 October instead of 1 April each year.
+\end{itemize}
+\bigskip\bigskip
+
+\underline{\textbf{Solution:}}\bigskip
+
+
+\underline{\textbf{Question 7:}}\bigskip
+
+An investor purchases 100 nominal of a fixed-interest stock, which pays coupons of 7\% pa
+half-yearly in arrears. The stock is redeemable at par and can be redeemed at the option of the borrower at any time between 5 and 10 years from the date of issue. The investor is subject to tax at the rate of 40\% on income and 25\% on capital gains.
+\begin{itemize}
+\item[(i)] Calculate the maximum price that the investor should pay in order to obtain a net yield of at least 6\% pa. 
+\item[(ii)] Given that this was the price paid by the investor, calculate his net annual running yield, convertible half-yearly.
+\end{itemize}
+\bigskip\bigskip
+
+\underline{\textbf{Solution:}}\bigskip
+
+
+\underline{\textbf{Question 8:}}\bigskip
+
+An equity pays half-yearly dividends. A dividend of d per share is due in exactly 3 months’ time. Subsequent dividends are expected to grow at a compound rate of g per half-year forever.
+\begin{itemize}
+\item[(i)] If i denotes the annual effective rate of return on the equity, show that P , the price per share, is given by:
+$$P=\frac{d(1+i)^{1/4}}{(1+i)^{1/2}-(1+g)}$$
+\item[(ii)] The current price of the share is 3.60, dividend growth is expected to be 2\% per half-year and the next dividend payment in 3 months is expected to be 12p.
+
+Calculate the expected annual effective rate of return for an investor who purchases the share.
+\end{itemize}
+\bigskip\bigskip
+
+\underline{\textbf{Solution:}}\bigskip
+
+\underline{\textbf{Question 9:}}\bigskip
+
+An ordinary share pays dividends on each 31 December. A dividend of 35p per share was paid on
+31 December 2017. The dividend growth is expected to be 3\% in 2018, and a further 5\% in 2019. Thereafter, dividends are expected to grow at 6\% per annum compound in perpetuity.
+\begin{itemize}
+\item[(i)] Calculate the present value of the dividend stream described above at a rate of interest of 8\% per annum effective for an investor holding 100 shares on 1 January 2018. 
+\end{itemize}
+\bigskip
+
+An investor buys 100 shares for 17.20 each on 1 January 2018. He expects to sell the shares for 18 on 1 January 2021.
+\begin{itemize}
+\item[(ii)] Calculate the investor’s expected real rate of return.
+\end{itemize}
+You should assume that dividends grow as expected and use the following values of the inflation index:
+\begin{table}[h]
+\centering
+\begin{tabular}{ccccc}
+
+Year: & 2018 & 2019 & 2020 & 2021 \\
+Inflation index at start of year: & 110.0 & 112.3 & 113.2 & 113.8
+\end{tabular}
+\end{table}
+\bigskip
+
+\underline{\textbf{Solution:}}\bigskip
+
+
+\underline{\textbf{Question 10:}}\bigskip
+
+ An index-linked zero-coupon bond was issued on 1 January 2013 for redemption at par on
+31 December 2017. The redemption payment was linked to a price inflation index with a 6-month time lag. The value of the price index on different dates is given below:
+\begin{table}[h]
+\centering
+\begin{tabular}{cccc}
+Date & Index & Date & Index  \\
+01.01.12 & 144 &01.01.16 & 181 \\
+01.07.12 & 148 &01.07.16 & 182 \\
+01.01.13 & 155 &01.01.17 & 188 \\
+01.07.13 & 160 &01.07.17 & 193 \\
+01.01.14 & 162 &01.01.18 & 201 \\
+01.07.14 & 168 &~&~\\	
+01.01.15 & 175 &~&~\\
+01.07.15 & 177 &~&~\\
+\end{tabular}
+\end{table}
+Calculate the annual effective money and real rates of return obtained by an investor who purchased 10,000 nominal of the stock on 1 January 2015 for 10,250 and held it until redemption.
+
+
+\underline{\textbf{Solution:}}\bigskip
+
+\underline{\textbf{Question 11:}}\bigskip
+
+On 25 October 2013 a certain government issued a 5-year index-linked stock. The stock had a
+nominal coupon rate of 3\% per annum payable half-yearly in arrears and a nominal redemption price of 100\%. The actual coupon and redemption payments were index-linked by reference to a retail price index as at the month of payment.
+
+An investor, who was not subject to tax, bought 10,000 nominal of the stock on 26 October 2017. The investor held the stock until redemption.
+
+You are given the following values of the retail price index:
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+	\hline
+& 2013 & - & 2017 &2018\\
+\hline
+April & -&-&-&171.1\\
+October & 149.2&-&169.4&173.8\\
+\hline
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item[(i)] Calculate the coupon payment that the investor received on 25 April 2018 and the coupon and redemption payments that the investor received on 25 October 2018. [3]
+\item[(ii)] Calculate the purchase price that the investor paid on 25 October 2017 if the investor achieved an effective real yield of 3.5\% per annum effective on the investment.
+\end{itemize}
+\bigskip
+
+\underline{\textbf{Solution:}}\bigskip
+
+
+\underline{\textbf{Question 12:}}\bigskip
+
+On 15 May 2017 the government of a country issued an index-linked bond of term 10 years.
+Coupons are payable half-yearly in arrears, and the annual nominal coupon rate is 8\%. The nominal redemption price is 102\%.
+\medskip
+
+Coupon and redemption payments are indexed by reference to the value of a retail price index with a time lag of 6 months. The retail price index value in November 2016 was 185 and in May 2017 was 190.
+
+\medskip
+The issue price of the bond was such that, if the retail price index were to increase continuously at a rate of 2\% pa from May 2017, a tax-exempt purchaser of the bond at the issue date would obtain a real yield of 3\% pa convertible half-yearly.
+
+\medskip
+Show that the issue price of the bond is 146.85 per 100 nominal.
+
+\bigskip
+
+\underline{\textbf{Solution:}}\bigskip	
+
+
+\newpage
+
+{\Large \textbf{Solutions:}}
+\begin{itemize}
+	\item Question 1: (i) 3,996.16 (ii)3.71 (iii)18.9\%
+	\item Question 2: 135
+	\item Question 3: 6.84\%
+	\item Question 4: (i)15.5 (ii)14.662 million
+	\item Question 5: (i)45,484 (ii) DPP does not fall within the first 10 years (iii)16.618 years
+\end{itemize}
+
+\end{document}
