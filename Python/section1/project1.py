@@ -39,8 +39,6 @@ for i in range(num_questions):
     else:
         print("Invalid operator")
         continue
-    
-    user_answer = input(question)                                      # Ask the user for the answer
 
     try:
         user_answer = int(user_answer)                                 # Convert the user's answer to an integer

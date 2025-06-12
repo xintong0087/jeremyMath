@@ -39,11 +39,16 @@ The tens digit of a number is the second-to-last digit of the number.
 - $7^1 \mod 100 = 7$
 - $7^2 \mod 100 = 49$
 - $7^3 \mod 100 = 343 \mod 100 = 43$
-- $7^4 \mod 100 = 7 \times 43 = 301 \mod 100 = 1$
-- $7^5 \mod 100 = 7 \times 1 = 7$
-- $7^6 \mod 100 = 7 \times 7 = 49$
-- $7^7 \mod 100 = 7 \times 49 = 343 \mod 100 = 43$
-- $7^8 \mod 100 = 7 \times 43 = 301 \mod 100 = 1$
+- $7^4 \mod 100 = 7 \times 343 = 2401 \mod 100 = 1$
+
+Only the last two digits of the product are relevant, so we can ignore the rest of the digits.
+
+- $7^5 \mod 100 = 7 \times 1 \mod 100 = 7$
+- $7^6 \mod 100 = 7 \times 7 \mod 100 = 49$
+- $7^7 \mod 100 = 7 \times 49 \mod 100 = 343 \mod 100 = 43$
+- $7^8 \mod 100 = 7 \times 343 \mod 100 = 2401 \mod 100 = 1$
+
+We can see that the last two digits of $7^n \mod 100$ repeat every 4 powers.
 
 ---
 
